@@ -1,0 +1,61 @@
+
+.cardContainer{
+    background-color: #F8F8FC;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTitle{
+    color: #2E2E4D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.headerExpires{
+    background-color: #FFEDED;
+    color: #F56C6C;
+    padding: 12px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.cardChildren{
+    font-size: 14px;
+    color: #5E5E7A;
+    padding: 20px 0px;
+}
+
+.tagContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.tags{
+    font-size: 14px;
+    color: #EBB800;
+    background-color: #FFF2C2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 10px 10px 0px;
+}
+
+
+.avatarContainer{
+    margin: 20px 0px;
+}
+
+.avatarImageContainer{
+    border-radius: 50px;
+}

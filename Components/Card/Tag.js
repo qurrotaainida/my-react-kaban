@@ -1,8 +1,11 @@
 import React from 'react'
+import styleCard from './card.module.css'
 
-const Tag = () => {
+const Tag = ({ children }) => {
   return (
-    <div>Tag</div>
+    <div className={styleCard.tags}>
+      {children}
+    </div>
   )
 }
 
